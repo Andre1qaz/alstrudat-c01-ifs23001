@@ -1,0 +1,55 @@
+
+=== Dompet Digital ===
+1. Login
+2. Daftar
+3. Keluar
+Pilih opsi: Masukkan username baru: Masukkan password: Akun berhasil dibuat.
+
+=== Dompet Digital ===
+1. Login
+2. Daftar
+3. Keluar
+Pilih opsi: Username: Password: 
+--- Menu Costumer ---
+Saldo: Rp0.0
+1. Deposit
+2. Tarik Tunai
+3. Transfer
+4. Laporkan Masalah
+5. Logout
+Pilih opsi: Tuliskan masalah Anda: Laporan dikirim.
+
+--- Menu Costumer ---
+Saldo: Rp0.0
+1. Deposit
+2. Tarik Tunai
+3. Transfer
+4. Laporkan Masalah
+5. Logout
+Pilih opsi: 
+=== Dompet Digital ===
+1. Login
+2. Daftar
+3. Keluar
+Pilih opsi: Username: Password: 
+--- Menu Admin ---
+1. Lihat laporan masalah
+2. Lihat jumlah pengguna
+3. Logout
+Pilih opsi: 
+No   | Nama Akun       | Total Saldo
+------------------------------------
+0001 | oben            | Rp0.00
+------------------------------------
+Total Pengguna: 0001
+
+--- Menu Admin ---
+1. Lihat laporan masalah
+2. Lihat jumlah pengguna
+3. Logout
+Pilih opsi: 
+=== Dompet Digital ===
+1. Login
+2. Daftar
+3. Keluar
+Pilih opsi:

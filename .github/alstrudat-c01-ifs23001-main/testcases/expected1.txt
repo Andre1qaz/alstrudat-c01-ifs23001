@@ -1,0 +1,12 @@
+
+=== Dompet Digital ===
+1. Login
+2. Daftar
+3. Keluar
+Pilih opsi: Masukkan username baru: Masukkan password: Akun berhasil dibuat.
+
+=== Dompet Digital ===
+1. Login
+2. Daftar
+3. Keluar
+Pilih opsi:
