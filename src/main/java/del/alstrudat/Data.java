@@ -25,6 +25,5 @@ public abstract class Data {
         this.nama = nama;
     }
 
-    
     public abstract void tampilData();
 }

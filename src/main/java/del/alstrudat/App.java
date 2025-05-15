@@ -4,6 +4,66 @@ public class App {
     private static MobilKBT mobilManager;
     private static BarangLoader barangLoader;
 
+    public static void main(String[] args) {
+        mobilManager = new MobilKBT();
+        barangLoader = new BarangLoader();
+
+        boolean running = true;
+        while (running) {
+            tampilkanMenu();
+            int pilihan = bacaInputAngka("Pilih menu: ");
+
+            switch (pilihan) {
+                case 1:
+                    mobilManager.tampilkanSemuaMobil();
+                    break;
+                case 2:
+                    mobilManager.tambahMobil();
+                    break;
+                case 3:
+                    mobilManager.tampilkanDetailMobil();
+                    break;
+                case 4:
+                    mobilManager.updateMobil();
+                    break;
+                case 5:
+                    mobilManager.hapusMobil();
+                    break;
+                case 6:
+                    mobilManager.cariMobilByNama();
+                    break;
+                case 7:
+                    mobilManager.cariMobilByKapasitasPenumpang();
+                    break;
+                case 8:
+                    mobilManager.sortMobilByDaya();
+                    break;
+                case 9:
+                    mobilManager.sortMobilByKapasitasBaterai();
+                    break;
+                case 10:
+                    barangLoader.tampilkanBarang();
+                    break;
+                case 11:
+                    barangLoader.tambahBarang();
+                    break;
+                case 0:
+                    running = false;
+                    System.out.println("Terima kasih telah menggunakan aplikasi ini!");
+                    break;
+                default:
+                    System.out.println("Pilihan tidak valid!");
+            }
+
+            if (running) {
+                System.out.println("\nTekan Enter untuk melanjutkan...");
+                Util.getScanner().nextLine();
+            }
+        }
+
+        Util.closeScanner();
+    }
+
     private static void tampilkanMenu() {
         System.out.println("\n=== APLIKASI MANAJEMEN MOBIL KBT ===");
         System.out.println("1. Tampilkan Semua Mobil KBT");
