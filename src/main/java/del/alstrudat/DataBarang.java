@@ -10,22 +10,6 @@ public class DataBarang extends Data {
         this.harga = harga;
     }
 
-    public String getJenis() {
-        return jenis;
-    }
-
-    public void setJenis(String jenis) {
-        this.jenis = jenis;
-    }
-
-    public double getHarga() {
-        return harga;
-    }
-
-    public void setHarga(double harga) {
-        this.harga = harga;
-    }
-
     @Override
     public void tampilData() {
         System.out.println("ID: " + id);
